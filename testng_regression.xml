@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="SeleniumEasy Test Suite">
+
+  <test name="Test">
+  
+  <parameter name="url" value="http://google.com"><>
+  
+    <classes>
+      <class name="com.se.qa.testcases.DemoPageTest"/>
+      <class name="com.se.qa.testcases.DragandDropTest"/>
+      <class name="com.se.qa.testcases.InputFormTest"/>
+      <class name="com.se.qa.testcases.TableSortSearchTest"/>
+      <class name="com.se.qa.testcases.AlertsModalTest"/>
+    </classes>
+    
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
